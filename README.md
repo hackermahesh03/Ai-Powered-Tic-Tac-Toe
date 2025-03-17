@@ -32,9 +32,12 @@ A feature-rich Tic-Tac-Toe game with AI, score tracking, Dark Mode, and smooth 3
 
 ## 📂 Project Structure
 tic-tac-toe/
-├── index.html # Main game structure
-├── style.css # Styling and animations
-└── script.js # Game logic and AI
+<br>
+├── index.html   # Main game structure
+<br>
+├── style.css    # Styling and animations
+<br>
+└── script.js    # Game logic and AI
 
 ## 📥 Installation (For Local Use)
 To run this game locally:
