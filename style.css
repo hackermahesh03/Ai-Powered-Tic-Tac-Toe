@@ -1,0 +1,105 @@
+/* General Styling */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background: #222;
+    color: white;
+}
+.dark-mode .cell {
+    background: #444;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+/* 3D Board Styling */
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+    width: 310px;
+    perspective: 500px; /* Adds depth for 3D effect */
+}
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    background: linear-gradient(to top left, #ddd, #fff); /* Glossy look */
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3), 0px 2px 2px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Hover Effect */
+.cell:hover {
+    background: linear-gradient(to top left, #ccc, #fff);
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* 3D Press Effect When Clicked */
+.cell.taken {
+    transform: translateY(4px);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: not-allowed;
+}
+
+/* Glowing Winning Cells */
+.winning-cell {
+    background: linear-gradient(to top left, gold, yellow);
+    box-shadow: 0px 0px 20px rgba(255, 215, 0, 0.8);
+    animation: glow 1s infinite alternate;
+}
+
+/* Glow Animation */
+@keyframes glow {
+    0% { box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.5); }
+    100% { box-shadow: 0px 0px 20px rgba(255, 215, 0, 1); }
+}
+
+/* Scoreboard */
+#scoreboard {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #444;
+    display: inline-block;
+    border-radius: 10px;
+    background: white;
+}
+.dark-mode #scoreboard {
+    background: #333;
+    border-color: white;
+}
+
+/* Buttons */
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    transition: background 0.3s ease, transform 0.1s;
+}
+button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+.dark-mode button {
+    background: #444;
+}
+.dark-mode button:hover {
+    background: #666;
+}

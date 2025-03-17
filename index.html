@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tic-Tac-Toe</h1>
+
+    <!-- Game Mode Selection -->
+    <div id="game-options">
+        <button onclick="startGame('pvp')">👥 Player vs Player</button>
+        <button onclick="selectAIDifficulty()">🤖 Player vs AI</button>
+    </div>
+
+    <!-- AI Difficulty Selection -->
+    <div id="difficulty" style="display: none;">
+        <p>Select AI Difficulty:</p>
+        <button onclick="startGame('ai', 'easy')">😃 Easy</button>
+        <button onclick="startGame('ai', 'medium')">😐 Medium</button>
+        <button onclick="startGame('ai', 'hard')">😈 Hard</button>
+    </div>
+
+    <!-- Game Board -->
+    <div class="board" id="board"></div>
+
+    <!-- Status Message -->
+    <h2 id="status">🎮 Click a button to start!</h2>
+
+    <!-- Scoreboard -->
+    <div id="scoreboard">
+        <h3>📊 Scoreboard</h3>
+        <p>Player X: <span id="playerScore">0</span></p>
+        <p>Player O/AI: <span id="aiScore">0</span></p>
+        <p>Draws: <span id="drawScore">0</span></p>
+    </div>
+
+    <!-- Restart & Theme Buttons -->
+    <div id="controls">
+        <button onclick="resetGame()">🔄 Restart Game</button>
+        <button onclick="toggleTheme()">🌙 Toggle Dark Mode</button>
+    </div>
+
+    <!-- Link JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
