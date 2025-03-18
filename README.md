@@ -1,7 +1,7 @@
 
 # 🎮 Tic-Tac-Toe Game
 
-A feature-rich Tic-Tac-Toe game with AI, score tracking, Dark Mode, and interactive effects. Play against a friend or challenge an AI opponent with multiple difficulty levels!
+A feature-rich Tic-Tac-Toe game with AI, score tracking, Dark Mode, and interactive effects. Play against friends or challenge the AI!
 
 ![Game Screenshot](https://github.com/hackermahesh03/tic-tac-toe/blob/main/Screenshot.png?raw=true)
 
