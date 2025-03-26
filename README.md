@@ -58,3 +58,8 @@ The AI opponent uses the Minimax algorithm to make optimal moves on Hard difficu
 
 ## 👏 Contributions
 Feel free to fork this repo and suggest improvements! Open an issue or submit a pull request.
+
+## 📌 Author  
+
+[@hackermahesh03](https://github.com/hackermahesh03)  
+Developed by Mahesh Babu Nettem  
