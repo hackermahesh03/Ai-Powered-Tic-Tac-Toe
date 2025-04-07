@@ -57,7 +57,7 @@ The AI opponent uses the Minimax algorithm to make optimal moves on Hard difficu
 - [ ] **Implement Online Multiplayer**: Use WebSockets or Firebase to enable real-time multiplayer matches.
 
 ## 👏 Contributions
-Feel free to fork this repo and suggest improvements! Open an issue or submit a pull request.
+Feel free to fork this repo and suggest improvements! Open an issue or submit a pull request .
 
 ## 📌 Author  
 
