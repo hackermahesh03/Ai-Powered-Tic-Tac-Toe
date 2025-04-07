@@ -6,7 +6,8 @@ A feature-rich Tic-Tac-Toe game with AI, score tracking, Dark Mode, and interact
 ![Game Screenshot](https://github.com/hackermahesh03/tic-tac-toe/blob/main/Screenshot.png?raw=true)
 
 ## 🚀 Live Demo
-🔗 Play the game here: [Tic-Tac-Toe Live](https://hackermahesh03.github.io/tic-tac-toe/)
+🔗[Click here](https://hackermahesh03.github.io/Tic-Tac-Toe/index.html)
+
 
 ## 📌 Features
 - Player vs Player Mode – Play against a friend.
