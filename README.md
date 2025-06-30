@@ -3,7 +3,7 @@
 
 A feature-rich Tic-Tac-Toe game with AI, score tracking, Dark Mode, and interactive effects. Play against friends or challenge the AI!
 
-\textbf{🚀 Live Demo:} \href{https://hackermahesh03.github.io/Ai-Powered-Tic-Tac-Toe/}{Click here}
+## 🚀 Live Demo: [Click here](https://hackermahesh03.github.io/Ai-Powered-Tic-Tac-Toe/)
 
 ![Game Screenshot](https://github.com/hackermahesh03/tic-tac-toe/blob/main/Screenshot.png?raw=true)
  
